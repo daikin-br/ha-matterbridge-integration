@@ -26,6 +26,8 @@ For detailed instructions, follow:
 
 ![Add Repository](images/ha-add-on-setup-1.png "Add Repository")
 
+![Add Repository](images/ha-add-on-setup-2.png "Add Repository")
+
 - Paste the URL for the Matterbridge add-on repository:  
   `https://github.com/Luligu/matterbridge-home-assistant-addon`  
 
@@ -35,13 +37,20 @@ For detailed instructions, follow:
 - Go to **Matter Bridge Web UI** → select **matterbridge-hass** from the plugin list → click **Install**.  
   - This plugin allows Home Assistant devices and individual entities to be exposed to the Matter ecosystem.  
 
+![Install matter bridge](images/ha-matter-bridge-install-1.png "Install matter bridge")
+
+![Install matterbridge-hass](images/ha-matterbridge-hass-install-1.png "Install matterbridge-hass")
+
 ---
 
 ## Step 3: Configure the Add-on
 
 ### 1. Configure `matterbridge-hass` companion plugin
 - Once installed, click the **gear icon** to setup `matterbridge-hass`.  
-- Setup **Home Assistant Long-Lived Access Token** for `matterbridge-hass` to establish a WebSocket connection with Home Assistant.  
+- Setup **Home Assistant Long-Lived Access Token** for `matterbridge-hass` to establish a WebSocket connection with Home Assistant.
+
+![Configure matterbridge-hass](images/ha-matterbridge-config-1.png "Configure matterbridge-hass")
+
   - To generate this token:  
     - Click on your account → **Security**.  
     - Navigate to **Long-Lived Access Token** section.  
