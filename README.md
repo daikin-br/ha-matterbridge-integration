@@ -22,7 +22,10 @@ For detailed instructions, follow:
 
 ### 1. Add the Matterbridge repository
 - In Home Assistant, go to **Settings → Add-ons**.  
-- Click the **three-dot menu** in the top-right corner and select **Repositories**.  
+- Click the **three-dot menu** in the top-right corner and select **Repositories**.
+
+![Add Repository](images/ha-add-on-setup-1.png "Add Repository")
+
 - Paste the URL for the Matterbridge add-on repository:  
   `https://github.com/Luligu/matterbridge-home-assistant-addon`  
 
