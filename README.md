@@ -37,7 +37,7 @@ For detailed instructions, follow:
 ## Step 3: Configure the Add-on
 
 ### 1. Configure `matterbridge-hass` companion plugin
-- Once installed, click the **gear icon** for `matterbridge-hass`.  
+- Once installed, click the **gear icon** to setup `matterbridge-hass`.  
 - Setup **Home Assistant Long-Lived Access Token** for `matterbridge-hass` to establish a WebSocket connection with Home Assistant.  
   - To generate this token:  
     - Click on your account → **Security**.  
